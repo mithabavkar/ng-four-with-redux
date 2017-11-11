@@ -1,4 +1,4 @@
-# NgCordova: Angular 4 + Cordova boilerplate
+# NgCordova: Angular 4 + Cordova + Redux boilerplate
 
 This project is using Angular 4 + Cordova boilerplate configurated to work together so you can start building your great Hybrid Cordova Mobile Apps in Angular 4.
 

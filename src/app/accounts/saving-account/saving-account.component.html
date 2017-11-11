@@ -1,0 +1,25 @@
+<div class="row spacer-left-right-15px">
+  <div class="col spacer-15px main-container-box-shadow">
+    <button type="button" 
+      class="btn btn-lg btn-block btn-primary toggle-card-header {{isCollapsed ? 'primary-bg-color' : 'transparent-bg-color'}}" 
+      (click)="isCollapsed = !isCollapsed"
+      [attr.aria-expanded]="!isCollapsed" 
+      aria-controls="collapseExample">
+      <div class="row">
+        <div class="col-1 rupee-style"><i class="fa fa-inr"></i></div>
+        <div class="col-10 title-account">Savings Account</div>
+        <div class="col-1 arrow-style"><i class="{{isCollapsed ? 'fa fa-angle-right' : 'fa fa-angle-down'}}"></i></div>
+      </div>
+    </button>
+    <div id="collapseExample" [ngbCollapse]="isCollapsed">
+      <div class="card">
+        <div class="card-body">
+          <div class="row account-info-style" style="margin:0px;">
+            <div class="col-11 account-number-style">1234567890</div>
+            <div class="col-1 arrow-style" style="right: -10px;"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

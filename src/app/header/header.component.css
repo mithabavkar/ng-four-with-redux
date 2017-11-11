@@ -1,0 +1,36 @@
+.nav-bar-main-block-style{
+    height: 30px;
+    margin: 10px 0;
+    background: #fff;
+    /*border-bottom: 1px solid #c6d0da;*/
+}
+
+.menu-icon-style{
+    margin-left: 15px;
+    font-size: 30px;
+    color: #5f6f81;
+}
+
+.menu-icon-block{
+    width: 55px;
+    height: 50px;
+    margin-top: -10px;
+    padding-top: 10px;
+    border-right: 1px solid #c6d0da;
+}
+
+.menu-icon-v-style{
+    margin-left: 22px;
+    font-size: 30px;
+    color:#5993cd;
+}
+
+.nav-bar-block-style{
+    border-right: 1px solid #c6d0da;
+    margin: -10px 0;
+    padding-top: 10px;
+}
+
+.title-style{
+    left:10px;
+}

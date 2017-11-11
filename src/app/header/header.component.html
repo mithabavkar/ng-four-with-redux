@@ -1,0 +1,11 @@
+<div class="row nav-bar-main-block-style">
+    <div class="col-2 nav-bar-block-style" (click)="openMenu.emit()">
+      <i class="fa fa-bars menu-icon-style" aria-hidden="true" *ngIf="openMenuBar"></i>
+      <i class="fa fa-ellipsis-v menu-icon-v-style" aria-hidden="true" *ngIf="!openMenuBar"></i>
+    </div>
+    <div class="col title-style">
+      <h3>
+        Bank
+      </h3>
+    </div>
+</div>

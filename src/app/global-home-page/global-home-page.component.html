@@ -1,0 +1,6 @@
+<header (openMenu)="openSidenav()" [openMenuBar]="!sidebarNavigation"></header>
+<side-bar [openNavBar]="sidebarNavigation"></side-bar>
+<div class="container-fluid" style="top:50px;position: relative;" *ngIf="!sidebarNavigation">
+  <home></home>
+</div>
+<footer [openMenuBar]="!sidebarNavigation"></footer>
